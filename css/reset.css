@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body, div, header, footer, section, aside, h1, h2, h3, h4, p
+nav, ul, li, ol, dl, dt, dd, p {margin:0; padding:0;}
+
+ul, li {list-style: none;}
+a {color:#333; text-decoration: none;}
+img {vertical-align: top;}
+
+
+.clear::after {content:""; display:block; clear:both;}
